@@ -132,6 +132,16 @@ A constant describing a step counter sensor.
 
 A sensor of this type returns the number of steps taken by the user since the last reboot while activated.
 
+## Sensors API
+
+For more information on accessing the android sensors api, check the official documentation at:
+
+https://developer.android.com/guide/topics/sensors/sensors_overview.html
+
+and
+
+https://developer.android.com/guide/topics/sensors/sensors_environment.html
+
 
 
 
