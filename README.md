@@ -10,7 +10,9 @@ and modify it as you please.
 
 ## Data Ouput
 
-Here are some details about the data output format for the individual sensors. 
+Here are some details about the data output format for the individual sensors. All 3D sensor data points are given in a coordinate system that is set relative to screen orientation. For more details check:
+
+https://developer.android.com/reference/android/hardware/SensorEvent.html#values
 
 ### Barometer
 
