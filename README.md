@@ -12,7 +12,7 @@ and modify it as you please.
 
 Here are some details about the data output format for the individual sensors. All 3D sensor data points are given in a coordinate system that is set relative to screen orientation. For more details check:
 
-https://developer.android.com/reference/android/hardware/SensorEvent.html#values
+https://developer.android.com/reference/android/hardware/SensorEvent.html
 
 ### Barometer
 
@@ -56,6 +56,54 @@ All values are in micro-Tesla (uT)
 * `"x"`: Ambient magnetic field in the X axis.
 * `"y"`: Ambient magnetic field in the Y axis.
 * `"z"`: Ambient magnetic field in the Z axis.
+
+### Gyroscope
+
+````
+{
+  "type" : "Gyroscope"
+  "date" : "2016-09-11T10:05:33.002-0200",
+  "x" : "0.2333",
+  "y" : "2.1345",
+  "z" : "1.0225",
+}
+````
+* `"x"`: Angular speed around the x-axis
+* `"y"`: Angular speed around the y-axis
+* `"z"`: Angular speed around the z-axis
+
+From the android developer docs:
+
+All values are in radians/second and measure the rate of rotation around the device's local X, Y and Z axis. The coordinate system is the same as is used for the acceleration sensor. Rotation is positive in the counter-clockwise direction. That is, an observer looking from some positive location on the x, y or z axis at a device positioned on the origin would report positive rotation if the device appeared to be rotating counter clockwise.
+
+### Light Sensor
+
+````
+{
+  "type" : "Light sensor"
+  "date" : "2016-09-12T10:04:33.002-0200",
+  "level" : "345.7",
+}
+````
+* `"level"`: Ambient light level in SI lux units
+
+### Linear Acceleration
+
+````
+{
+  "type" : "Linear_acceleration"
+  "date" : "2016-09-12T10:04:33.002-0200",
+  "x" : "-0.0066",
+  "y" : "-0.0363",
+  "z" : "-1.0032",
+}
+````
+All values are in SI units (m/s^2)
+
+From the android documentation:
+
+A three dimensional vector indicating acceleration along each device axis, not including gravity. All values have units of m/s^2. The coordinate system is the same as is used by the acceleration sensor.
+
 
 
 
