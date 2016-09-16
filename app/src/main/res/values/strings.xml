@@ -1,0 +1,31 @@
+
+<resources>
+    <string name="app_name">SensorApp</string>
+
+    <string name="pref_shmack_instance_url_label">Endpoint URL</string>
+    <string name="pref_shmack_instance_url_key" translatable="false">endpoint_url</string>
+    <string name="pref_shmack_instance_url_default" translatable="false">http://ec2-54-183-149-224.us-west-1.compute.amazonaws.com:8083/sensorReading/</string>
+
+    <string name="pref_shmack_instance_username_label">Username</string>
+    <string name="pref_shmack_instance_username_key" translatable="false">username</string>
+    <string name="pref_shmack_instance_username_default" translatable="false">hackzurich</string>
+
+    <string name="pref_shmack_instance_password_label">Password</string>
+    <string name="pref_shmack_instance_password_key" translatable="false">password</string>
+    <string name="pref_shmack_instance_password_default" translatable="false">hackzurich</string>
+
+    <string name="pref_shmack_instance_last_transfer_failure_label">Last Transfer Failure</string>
+    <string name="pref_shmack_instance_last_transfer_failure_key" translatable="false">last_transfer_failure</string>
+    <string name="pref_shmack_instance_last_transfer_failure_default" translatable="false">No transfer failure recorded</string>
+
+    <string name="BAROMETER">Barometer</string>
+    <string name="ACCELEROMETER">Accelerometer</string>
+    <string name="GYROSCOPE">Gyroscope</string>
+    <string name="MAGNETOMETER">Magnetometer</string>
+    <string name="LIGHT">Light Sensor</string>
+    <string name="LINEAR_ACCELERATION">Linear Acceleration</string>
+    <string name="TEMPERATURE">Temperature</string>
+    <string name="STEP_COUNTER">Step Counter</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
