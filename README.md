@@ -14,8 +14,6 @@ Here are some details about the data output format for the individual sensors.
 
 ### Barometer
 
-`"pressure"` : Atmospheric pressure in hPa (millibar)
-
 ````
 {
   "type" : "Barometer"
@@ -23,6 +21,25 @@ Here are some details about the data output format for the individual sensors.
   "pressure" : "1013.564",
 }
 ````
+`"pressure"` : Atmospheric pressure in hPa (millibar)
+
+### Accelerometer
+
+````
+{
+  "type" : "Accelerometer"
+  "date" : "2016-09-12T13:43:08.322-0200",
+  "x" : "-0.0066",
+  "y" : "-0.0363",
+  "z" : "-1.0032",
+}
+````
+All values are in SI units (m/s^2)
+* `"x"`: Acceleration minus Gx on the x-axis
+* `"y"`: Acceleration minus Gy on the y-axis
+* `"z"`: Acceleration minus Gz on the z-axis
+
+
 
 
 
