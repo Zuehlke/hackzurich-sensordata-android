@@ -39,6 +39,22 @@ All values are in SI units (m/s^2)
 * `"y"`: Acceleration minus Gy on the y-axis
 * `"z"`: Acceleration minus Gz on the z-axis
 
+### Magnetometer
+
+````
+{
+  "type" : "Magnetometer"
+  "date" : "2016-09-13T08:03:02.142-0200",
+  "x" : "0.008",
+  "y" : "0.0345",
+  "z" : "0.045",
+}
+````
+All values are in micro-Tesla (uT)
+* `"x"`: Ambient magnetic field in the X axis.
+* `"y"`: Ambient magnetic field in the Y axis.
+* `"z"`: Ambient magnetic field in the Z axis.
+
 
 
 
