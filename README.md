@@ -80,8 +80,8 @@ All values are in radians/second and measure the rate of rotation around the dev
 
 ````
 {
-  "type" : "Light sensor"
-  "date" : "2016-09-12T10:04:33.002-0200",
+  "type" : "Light"
+  "date" : "2016-09-12T11:04:00.002-0200",
   "level" : "345.7",
 }
 ````
@@ -92,7 +92,7 @@ All values are in radians/second and measure the rate of rotation around the dev
 ````
 {
   "type" : "Linear_acceleration"
-  "date" : "2016-09-12T10:04:33.002-0200",
+  "date" : "2016-09-12T11:17:03.002-0200",
   "x" : "-0.0066",
   "y" : "-0.0363",
   "z" : "-1.0032",
@@ -104,6 +104,33 @@ From the android documentation:
 
 A three dimensional vector indicating acceleration along each device axis, not including gravity. All values have units of m/s^2. The coordinate system is the same as is used by the acceleration sensor.
 
+### Temperature
+
+````
+{
+  "type" : "Temperature"
+  "date" : "2016-09-12T10:04:33.002-0200",
+  "temperature" : "22.3",
+}
+````
+* `"temperature"`: ambient (room) temperature in degree Celsius.
+
+### Step counter
+
+````
+{
+  "type" : "Temperature"
+  "date" : "2016-09-12T10:04:33.002-0200",
+  "stepsSinceLastReboot" : "1023",
+}
+````
+* `"stepsSinceLastReboot"`: number of steps taken by the user since the last reboot.
+
+From the android documentation:
+
+A constant describing a step counter sensor.
+
+A sensor of this type returns the number of steps taken by the user since the last reboot while activated.
 
 
 
