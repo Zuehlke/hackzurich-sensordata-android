@@ -8,7 +8,7 @@ an example Sensor app for android, which functions in a similar fashion to its i
 ways: simply install the app on your device and start gathering data (you'll still need Android Studio to install it), or download the code 
 and modify it as you please.
 
-## Data Ouput
+## Data Output
 
 Here are some details about the data output format for the individual sensors. All 3D sensor data points are given in a coordinate system that is set relative to screen orientation. For more details check:
 
