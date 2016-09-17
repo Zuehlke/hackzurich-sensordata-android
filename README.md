@@ -18,9 +18,9 @@ https://developer.android.com/reference/android/hardware/SensorEvent.html
 
 ````
 {
-  "type" : "Barometer"
+  "type" : "Barometer",
   "date" : "2016-09-10T12:33:18.413-0200",
-  "pressure" : "1013.564",
+  "pressure" : "1013.564"
 }
 ````
 `"pressure"` : Atmospheric pressure in hPa (millibar)
@@ -29,11 +29,11 @@ https://developer.android.com/reference/android/hardware/SensorEvent.html
 
 ````
 {
-  "type" : "Accelerometer"
+  "type" : "Accelerometer",
   "date" : "2016-09-12T13:43:08.322-0200",
   "x" : "-0.0066",
   "y" : "-0.0363",
-  "z" : "-1.0032",
+  "z" : "-1.0032"
 }
 ````
 All values are in SI units (m/s^2)
@@ -45,11 +45,11 @@ All values are in SI units (m/s^2)
 
 ````
 {
-  "type" : "Magnetometer"
+  "type" : "Magnetometer",
   "date" : "2016-09-13T08:03:02.142-0200",
   "x" : "0.008",
   "y" : "0.0345",
-  "z" : "0.045",
+  "z" : "0.045"
 }
 ````
 All values are in micro-Tesla (uT)
@@ -61,11 +61,11 @@ All values are in micro-Tesla (uT)
 
 ````
 {
-  "type" : "Gyroscope"
+  "type" : "Gyroscope",
   "date" : "2016-09-11T10:05:33.002-0200",
   "x" : "0.2333",
   "y" : "2.1345",
-  "z" : "1.0225",
+  "z" : "1.0225"
 }
 ````
 * `"x"`: Angular speed around the x-axis
@@ -80,9 +80,9 @@ All values are in radians/second and measure the rate of rotation around the dev
 
 ````
 {
-  "type" : "Light"
+  "type" : "Light",
   "date" : "2016-09-12T11:04:00.002-0200",
-  "level" : "345.7",
+  "level" : "345.7"
 }
 ````
 * `"level"`: Ambient light level in SI lux units
@@ -91,11 +91,11 @@ All values are in radians/second and measure the rate of rotation around the dev
 
 ````
 {
-  "type" : "Linear_acceleration"
+  "type" : "Linear_acceleration",
   "date" : "2016-09-12T11:17:03.002-0200",
   "x" : "-0.0066",
-  "y" : "-0.0363",
-  "z" : "-1.0032",
+  "y" : "-0.0363,
+  "z" : "-1.0032"
 }
 ````
 All values are in SI units (m/s^2)
@@ -108,9 +108,9 @@ A three dimensional vector indicating acceleration along each device axis, not i
 
 ````
 {
-  "type" : "Temperature"
+  "type" : "Temperature",
   "date" : "2016-09-12T10:04:33.002-0200",
-  "temperature" : "22.3",
+  "temperature" : "22.3"
 }
 ````
 * `"temperature"`: ambient (room) temperature in degree Celsius.
@@ -119,9 +119,9 @@ A three dimensional vector indicating acceleration along each device axis, not i
 
 ````
 {
-  "type" : "Temperature"
+  "type" : "Temperature",
   "date" : "2016-09-12T10:04:33.002-0200",
-  "stepsSinceLastReboot" : "1023",
+  "stepsSinceLastReboot" : "1023"
 }
 ````
 * `"stepsSinceLastReboot"`: number of steps taken by the user since the last reboot.
